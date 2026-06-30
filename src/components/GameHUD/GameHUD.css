@@ -1,0 +1,82 @@
+.hud{
+
+    width:min(90%,700px);
+
+    margin:25px auto;
+
+}
+
+.hud-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:15px;
+
+}
+
+.hud-box{
+
+    flex:1;
+
+    padding:16px;
+
+    text-align:center;
+
+    border-radius:16px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(18px);
+
+    font-weight:600;
+
+    box-shadow:var(--shadow);
+
+}
+
+.combo{
+
+    animation:pulse 1s infinite;
+
+}
+
+.progress{
+
+    margin-top:18px;
+
+    height:14px;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    background:rgba(255,255,255,.12);
+
+}
+
+.progress-fill{
+
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        #22c55e,
+        #3b82f6,
+        #8b5cf6
+    );
+
+    transition:.5s;
+
+}
+
+@media(max-width:600px){
+
+.hud-top{
+
+    flex-direction:column;
+
+}
+
+}

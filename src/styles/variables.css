@@ -1,0 +1,30 @@
+:root {
+
+  /* Background */
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+
+  /* Glass */
+  --glass: rgba(255,255,255,0.08);
+
+  /* Text */
+  --text: #ffffff;
+  --text-light: #cbd5e1;
+
+  /* Colors */
+  --primary: #3b82f6;
+  --secondary: #8b5cf6;
+
+  --success: #22c55e;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+
+  /* Radius */
+  --radius: 18px;
+
+  /* Shadow */
+  --shadow: 0 15px 40px rgba(0,0,0,.35);
+
+  /* Transition */
+  --transition: .3s ease;
+}

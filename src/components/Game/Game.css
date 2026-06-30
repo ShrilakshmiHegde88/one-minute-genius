@@ -1,0 +1,109 @@
+.game{
+    min-height:100vh;
+    background:#f4f7fb;
+    padding:40px;
+}
+
+.game-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:white;
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.timer,
+.score{
+
+    font-size:28px;
+    font-weight:bold;
+
+}
+
+.challenge-box{
+
+    max-width:600px;
+
+    margin:70px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.1);
+
+}
+
+.challenge-box h2{
+
+    color:#2563eb;
+    margin-bottom:20px;
+
+}
+
+.challenge-box h1{
+
+    font-size:48px;
+    margin-bottom:30px;
+
+}
+
+.challenge-box input{
+
+    width:100%;
+    padding:15px;
+
+    font-size:20px;
+
+    border-radius:10px;
+    border:1px solid #ccc;
+
+}
+
+.challenge-box button{
+
+    margin-top:20px;
+
+    width:100%;
+
+    padding:15px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+}
+
+.challenge-box button:hover{
+
+    background:#1e40af;
+
+}
+.combo{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    color:orange;
+
+}
