@@ -16,14 +16,14 @@
   width: 420px;
   max-width: 95%;
   background: white;
-  color: #222;        /* ADD THIS */
+  color: #222;        
   border-radius: 20px;
   padding: 30px;
   box-shadow: 0 10px 30px rgba(0,0,0,.25);
 }
 
 .statistics-card h1 {
-  color: #1d3557;     /* ADD THIS */
+  color: #1d3557;     
 }
 
 
@@ -37,7 +37,7 @@
   font-size:20px;
 }
 .stat-row span {
-  color: #222;        /* ADD THIS */
+  color: #222;        
 }
 
 .home-btn{

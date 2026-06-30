@@ -3,15 +3,15 @@ import { createContext, useContext, useState } from "react";
 const GameContext = createContext();
 
 export function GameProvider({ children }) {
-  // Navigation
+  
   const [screen, setScreen] = useState("home");
 
-  // Game
+  
   const [score, setScore] = useState(0);
   const [combo, setCombo] = useState(0);
   const [timeLeft, setTimeLeft] = useState(60);
 
-  // Statistics
+  
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
 
@@ -32,7 +32,7 @@ export function GameProvider({ children }) {
     setWrongAnswers((prev) => prev + 1);
   }
 
-  // Navigation functions
+  
   function startGame() {
     restartGame();
     setScreen("countdown");
@@ -64,7 +64,7 @@ export function GameProvider({ children }) {
   return (
     <GameContext.Provider
       value={{
-        // Navigation
+        
         screen,
         startGame,
         finishCountdown,
@@ -72,7 +72,7 @@ export function GameProvider({ children }) {
         showStatistics,
         endGame,
 
-        // Game
+        
         score,
         combo,
         timeLeft,
@@ -81,7 +81,7 @@ export function GameProvider({ children }) {
         resetCombo,
         restartGame,
 
-        // Statistics
+        
         correctAnswers,
         wrongAnswers,
         increaseCorrect,
